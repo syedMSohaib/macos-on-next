@@ -1,0 +1,50 @@
+{
+  "name": "refine-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "refine": "refine"
+  },
+  "dependencies": {
+    "@radix-ui/react-menubar": "^1.0.3",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@refinedev/cli": "^2.5.1",
+    "@refinedev/core": "^4.5.8",
+    "@refinedev/inferencer": "^4.0.0",
+    "@refinedev/kbar": "^1.1.0",
+    "@refinedev/nextjs-router": "^5.1.4",
+    "@refinedev/react-hook-form": "^4.1.2",
+    "@refinedev/react-table": "^5.0.0",
+    "@refinedev/simple-rest": "^4.0.0",
+    "@types/lodash": "^4.14.195",
+    "autoprefixer": "^10.4.14",
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "evergreen-ui": "^7.1.9",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.260.0",
+    "next": "^13.0.6",
+    "next-i18next": "^8.9.0",
+    "nookies": "^2.5.2",
+    "postcss": "^8.4.26",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.10.1",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.6",
+    "usehooks-ts": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.11",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/parser": "5.48.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.7.4"
+  }
+}

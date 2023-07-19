@@ -7,7 +7,7 @@ export const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   const router = useRouter();
 
   return (
-    <div className="layout">
+    <div className="layout h-screen">
       <div className="content">
         {router.pathname !== "/loading" && <ApplicationMenubar />}
         <div>{children}</div>

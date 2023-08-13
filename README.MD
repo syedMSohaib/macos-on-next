@@ -17,6 +17,11 @@ Refine offers lots of out-of-the box functionality for rapid development, withou
 
 ## Screenshots
 
+<img src="./public/images/screenshots/Screenshot 2023-08-13 at 2.33.27 PM.png"  align="center" />
+<img src="./public/images/screenshots/Screenshot 2023-08-13 at 2.33.33 PM.png"  align="center" />
+<img src="./public/images/screenshots/Screenshot 2023-08-13 at 2.33.44 PM.png"  align="center" />
+<img src="./public/images/screenshots/Screenshot 2023-08-13 at 2.33.51 PM.png"  align="center" />
+
 ## Available Scripts
 
 ### Running the development server.
